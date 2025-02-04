@@ -5,13 +5,25 @@
 @theme {
   --font-pangolin: "Pangolin", serif;
 
-  --animate-walk: walk 6s linear;
+  --animate-walk: walk 4s linear;
+
+  --animate-fall: fall 6s linear;
+
   @keyframes walk {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(60vw);
+    }
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(110dvh);
     }
   }
 }
