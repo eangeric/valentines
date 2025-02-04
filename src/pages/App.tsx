@@ -1,4 +1,4 @@
-import ValentineOption from "../components/valentineOption";
+import ValentineOption from "../components/ValentineOption";
 
 export default function App() {
   return (
