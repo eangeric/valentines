@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-pangolin: "Pangolin", serif;
+
+  --animate-walk: walk 6s linear;
+  @keyframes walk {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(60vw);
+    }
+  }
+}
