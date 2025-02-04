@@ -6,8 +6,8 @@ export default function ValentineOption() {
   const [responsed, setResponsed] = useState(false);
 
   interface Heart {
-    id: Number;
-    location: String;
+    id: number;
+    location: string;
   }
 
   // Keep track of all hearts
